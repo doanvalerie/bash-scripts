@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# An implementation of an address book that stores and edits data in a CSV file.
+# Purposes: Build Bash skills by reviewing learned commands.
+# To-Do: Implement script timeout, process searches that have the same field values in multiple lines,
+#        perform validation for field values (e.g. email, phone number, etc.).
+
 CSV_PATH="./database/database.csv"
 
 RED="\033[0;31m"
